@@ -1,3 +1,4 @@
+////小心后面算fac的时候要小于等于sqr不能小于，否则9会出错
 //#pragma warning (disable:4996)
 //#include<iostream>
 //#include<math.h>

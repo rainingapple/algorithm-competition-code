@@ -7,11 +7,11 @@ void init()
 {
 	for (int i = 0;i < n;i++)
 	{
-		//ÕâÀïÒ²ÓÐ¶¼³õÊ¼»¯Îª-1µÄËµ·¨
+		//ï¿½ï¿½ï¿½ï¿½Ò²ï¿½Ð¶ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½Îª-1ï¿½ï¿½Ëµï¿½ï¿½
 		father[i] = i;
 	}
 }
-int findfather(int u)//µÝÍÆ°æ±¾
+int findfather(int u)//ï¿½ï¿½ï¿½Æ°æ±¾
 {
 	while (father[u] != u)
 		u = father[u];
